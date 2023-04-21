@@ -13,18 +13,18 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="head">
+    <nav class="head">
         <div class="h header_1">Color Flipper</div> 
         <div class="h header_2">
-            <div class="header_2-1">Simple</div>
+            <div class="header_2-1" onclick="simple()">Simple</div>
             <!-- <div> </div> -->
-            <div class="header_2-2">Hex</div>
+            <div class="header_2-2" onclick="hex()">Hex</div>
         </div>
-    </div>
-    <div class="main-container">
+    </nav>
+    <div class="main-container" id="container">
         <!-- <div class="main-son">  -->
-            <div class="text"><div class="text1">Background color : <div class="text2">#F1f5f8</div></div></div>
-            <div class="button">CLICK ME</div>
+            <div class="text"><div class="text1">Background color : <div class="text2" id="textc">#F1f5f8</div></div></div>
+            <div class="button" onclick="mainbutton()">CLICK ME</div>
         <!-- </div> -->
     </div>
 </body>
